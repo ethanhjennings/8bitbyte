@@ -1,2 +1,2 @@
 # 8bitbyte
-Repository for [8bitbyte][8bitbyte.io]
+Repository for [8bitbyte](http://8bitbyte.io)
