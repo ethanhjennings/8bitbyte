@@ -1,0 +1,76 @@
+@font-face {
+    font-family: eightbit;
+    src: url(../fonts/8-bit_wonder.ttf);
+}
+
+.maintitle{
+	font-family: eightbit;
+	font-size: 80px;
+	color:#00ff00;
+	font-smooth: never;
+	-webkit-font-smoothing: never;
+	text-align: center;
+	margin-top:40px;
+}
+
+h1 {
+	font-family: eightbit;
+	font-size:30px;
+	color:#00ff00;
+}
+
+.centered {
+	text-align:center;
+}
+
+.logo {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.info {
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	font-size:20px;
+}
+
+.gamebox {
+	width:700px;
+	height:200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gameboximg {
+	display:inline;
+}
+
+.gameboxback {
+	display:inline;
+	width: 700px;
+	height: 200px;
+	opacity:0.6;
+	background-color: black;
+}
+
+body {
+	background: linear-gradient(#ff00ff, #ff0044);
+}
+
+div {
+	position:relative;
+	z-index:100;
+	font-family: Raleway;
+	color:white;
+}
+
+img {
+	opacity: 1.0;
+	image-rendering: optimizeSpeed;             /* FUCK SMOOTHING, GIVE ME SPEED  */
+ 	image-rendering: -moz-crisp-edges;          /* Firefox                        */
+ 	image-rendering: -o-crisp-edges;            /* Opera                          */
+ 	image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+ 	image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+ 	-ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+      }
